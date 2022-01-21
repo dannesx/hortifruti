@@ -1,17 +1,44 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import './index.css'
+import { BrowserRouter } from 'react-router-dom'
+
+import App from './App'
+import Header from './components/Header'
+import { CartContext } from './contexts/CartContext'
+
+import { ThemeProvider, createTheme } from '@mui/material'
+import { CssBaseline } from '@mui/material'
+
+const theme = createTheme({
+	palette: {
+		primary: {
+			main: '#009688',
+			light: '#33ab9f',
+			dark: '#00695f',
+		},
+		secondary: {
+			main: '#ffc400',
+			light: '#ffcf33',
+			dark: '#b28900',
+		},
+		white: {
+			main: '#fff',
+		},
+	},
+})
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+	<React.StrictMode>
+		<ThemeProvider theme={theme}>
+			<CssBaseline />
+			<CartContext>
+				<BrowserRouter>
+					<Header />
+					<App />
+				</BrowserRouter>
+			</CartContext>
+		</ThemeProvider>
+	</React.StrictMode>,
+	document.getElementById('root')
+)
