@@ -10,7 +10,7 @@ const Loading = () => {
 		>
 			<div style={{ display: 'grid', placeItems: 'center' }}>
 				<CircularProgress size={55} />
-				<p>
+				<p style={{ textAlign: 'center' }}>
 					Se o site não carregar, tente instalar esta{' '}
 					<a
 						href="https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf"

@@ -69,15 +69,18 @@ export default function Header() {
 						</Link>
 					</Box>
 
-					<Search>
-						<SearchIconWrapper>
-							<SearchIcon />
-						</SearchIconWrapper>
-						<StyledInputBase
-							placeholder="Buscar"
-							inputProps={{ 'aria-label': 'search' }}
-						/>
-					</Search>
+					<Box sx={{ display: { xs: 'none', sm: 'block' } }}>
+						<Search>
+							<SearchIconWrapper>
+								<SearchIcon />
+							</SearchIconWrapper>
+							<StyledInputBase
+								placeholder="Buscar"
+								inputProps={{ 'aria-label': 'search' }}
+							/>
+						</Search>
+					</Box>
+
 					<Link to="/cart">
 						<IconButton
 							aria-label="Carrinho"
