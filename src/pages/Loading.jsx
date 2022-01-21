@@ -8,7 +8,19 @@ const Loading = () => {
 			xs={12}
 			sx={{ display: 'grid', minHeight: '70vh', placeItems: 'center' }}
 		>
-			<CircularProgress size={55}/>
+			<div style={{ display: 'grid', placeItems: 'center' }}>
+				<CircularProgress size={55} />
+				<p>
+					Se o site não carregar, tente instalar esta{' '}
+					<a
+						href="https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf"
+						target="_blank"
+						rel="noreferrer"
+					>
+						extensão do Chrome
+					</a>
+				</p>
+			</div>
 		</Grid>
 	)
 }
