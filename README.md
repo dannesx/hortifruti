@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+![Header Project](./git/header.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+<h1>HortiFruti ✨ - Shopping Cart</h1>
 
-## Available Scripts
+<a href="https://hortifruti-dannesx.vercel.app/">![](https://img.shields.io/badge/-Confira%20o%20projeto%20online!-brightgreen)</a>
 
-In the project directory, you can run:
+![License](https://img.shields.io/badge/License-MIT-informational)
+&nbsp;
+![Status](https://img.shields.io/badge/Status-Finalizado-informational)
 
-### `npm start`
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+> E-commerce simples consumindo API de frutas, desenvolvido com React e Material UI 🛒
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 💻 Sobre o Projeto
 
-### `npm test`
+Caso de estudo sobre um carrinho de compras para uma loja de hortifruti. A ideia principal deste projeto é praticar conceitos do framework React para construção de páginas dinâmicas e de componentização.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Para o design, foi utilizado a biblioteca Material UI, que facilita no momento de criação de componentes e no design responsivo.
 
-### `npm run build`
+Enfrentei alguns problemas com o projeto, tais como o bloqueio do CORS para requisições API, que contornei através desta [extensão do Google Chrome](https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+> OBS: Após instalar a extensão, certifique-se de ativá-la!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Tecnologias e Ferramentas
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+_Este projeto foi desenvolvido com:_
 
-### `npm run eject`
+- React.js
+- React Router DOM
+- Material UI
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📚 Aprendizado
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+_Neste projeto eu pratiquei:_
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Consumo de API REST
+- Create React App
+- React Components
+- React Hooks (_useState, useEffect, useContext_)
+- React Routes
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🥵 Dificuldades
 
-## Learn More
+_Dificuldades que encontrei e pontos para melhorar!_
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Bloqueio CORS na requisição da API
+- Organização do projeto
+- Lógica de funcionamento "espalhada"
+- Aplicação da SSOT (_Single Source of Truth_)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## ⚙️ Materiais Utilizados
 
-### Code Splitting
+- API REST: [Fruityvice API ](https://www.fruityvice.com/)
+- Icons: [Material Icons](https://mui.com/pt/components/material-icons/)
+- Imagens: [Kerismaker - Flaticon](https://www.flaticon.com/br/buscar?author_id=337&style_id=1225&type=standard&word=frutas&k=1642701749007)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 💻 Telas
 
-### Analyzing the Bundle Size
+_Você pode conferir o projeto [clicando aqui!](https://hortifruti-dannesx.vercel.app/)_
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![](./git/store.png)
 
-### Making a Progressive Web App
+![](./git/cart.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🤖 Créditos & Agradecimentos
 
-### Advanced Configuration
+_Sem eles, este projeto não seria possível!_
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- [Diego Fernandes](https://www.rocketseat.com.br/)
+- [André Rafael](https://www.origamid.com/)
+- [Scrimba](https://scrimba.com/)
 
-### Deployment
+Um agradecimento especial à empresa [Frexco](https://frexco.com.br/) por ter me concedido tal desafio.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📋 Licença
 
-### `npm run build` fails to minify
+Este projeto está sob a licença [MIT](LICENSE). Projeto realizado apenas para fins didáticos. Fique à vontade para utilizar todo o conteúdo deste repositório!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+Obrigado pela atenção! 😃
